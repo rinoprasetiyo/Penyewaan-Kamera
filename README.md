@@ -1,42 +1,38 @@
-# 📸 Sistem Penyewaan Kamera
+# 📱 APK Pendataan SPP
 
-Sistem Penyewaan Kamera adalah aplikasi berbasis web yang dirancang untuk memudahkan proses peminjaman kamera dan aksesorisnya secara online. Sistem ini memungkinkan pengguna untuk melihat katalog kamera, melakukan pemesanan, serta mengelola transaksi penyewaan dengan mudah.
+Aplikasi Android untuk mendata pembayaran SPP siswa di sekolah.  
+Dibuat dengan **MICROSOFT VISUAL STUDIO** menggunakan **C#**.
 
-## 📝 Deskripsi Proyek
+---
 
-Aplikasi ini dibangun untuk membantu usaha rental kamera dalam:
-- Menyediakan sistem reservasi online yang efisien.
-- Mengelola data penyewa, kamera, dan transaksi penyewaan.
-- Mengurangi proses manual dan kesalahan pencatatan.
-- Memberikan kemudahan bagi pelanggan dalam memesan kamera kapan saja.
+## 🚀 Fitur
 
-## 🚀 Fitur Utama
 
-### 🔍 Untuk Penyewa
-- **Registrasi & Login**
-- **Melihat Daftar Kamera & Aksesoris**
-- **Pencarian dan Filter Kamera**
-- **Detail Kamera & Spesifikasi**
-- **Form Penyewaan (pilih tanggal sewa dan kembali)**
-- **Upload Bukti Pembayaran**
-- **Notifikasi Email (konfirmasi & pengingat)**
-- **Dashboard Penyewa (riwayat dan status penyewaan)**
+- Pendataan Siswa
+- Riwayat Pembayaran SPP
+- CRUD Data Kelas, Siswa, dan Pembayaran
 
-### 🛠️ Untuk Admin
-- **Login Admin**
-- **Manajemen Kamera & Aksesoris (CRUD)**
-- **Manajemen Data Penyewa**
-- **Konfirmasi & Monitoring Transaksi**
-- **Laporan Penyewaan (harian/mingguan/bulanan)**
-- **Perhitungan Denda Keterlambatan Otomatis**
+---
 
-## 🧱 Teknologi yang Digunakan
+## 📂 Struktur Proyek
 
-- **Database:** MySQL / PostgreSQL
+- **MainActivity** : Halaman utama
+- **LoginActivity** : Halaman login petugas/admin
+- **SiswaActivity** : Data siswa
+- **PembayaranActivity** : Data pembayaran SPP
 
-## ⚙️ Cara Menjalankan Aplikasi
+---
 
-1. Clone repository ini:
+## 🛠️ Teknologi
+
+- Java (Android)
+- SQLite Database / Firebase (opsional)
+- XML Layout
+
+---
+
+## ⚙️ Cara Menjalankan
+
+1. Clone repo:
    ```bash
-   git clone https://github.com/username/penyewaan-kamera.git
-   cd penyewaan-kamera
+   git clone https://github.com/username/apk-pendataan-spp.git
